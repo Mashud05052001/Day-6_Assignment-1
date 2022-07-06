@@ -6,7 +6,7 @@
         #divv {
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url(../pictures/images/donation5.jpg) no-repeat center/cover;
             width: 100vw;
-            height: 70vh;
+            height: 75vh;
         }
         
         #divv .head1 {
@@ -15,7 +15,7 @@
             font-family: 'Ubuntu', sans-serif;
             font-size: 50px;
             letter-spacing: 2px;
-            padding-top: 80px;
+            padding-top: 135px;
         }
         
         #divv .info1 {
@@ -56,7 +56,7 @@
         .div1 {
             width: 100%;
             text-align: center;
-            height: 85vh;
+            height: 55vh;
         }
         
         .div1 .head1 {
@@ -65,7 +65,7 @@
             font-family: 'Ubuntu', sans-serif;
             font-size: 50px;
             letter-spacing: 2px;
-            padding-top: 80px;
+            padding-top: 85px;
         }
         
         .div1 .info1 {
@@ -120,5 +120,113 @@
         }
         
         input:focus {
+            outline: none;
+        }
+        
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        section .planning {
+            margin-left: 40px;
+            padding: 20px 30px;
+            border-radius: 15px;
+            background: linear-gradient(rgba(228, 158, 29, 0.507), rgba(198, 198, 185, 0.2));
+        }
+        
+        section #pla1 img {
+            width: 93px;
+        }
+        
+        section .planning img {
+            width: 80px;
+        }
+        
+        section .planning h3 {
+            font-size: 35px;
+            padding: 20px 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        section .planning p {
+            line-height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .part {
+            display: flex;
+            margin-top: 100px;
+        }
+        
+        .part .discription {
+            width: 37%;
+            padding-left: 200px;
+        }
+        
+        .part .head2 {
+            padding-bottom: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .part .info2 {
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 50px;
+        }
+        
+        .part .img1 {
+            width: 60px;
+        }
+        
+        .part .img1 img {
+            width: 700px;
+        }
+        
+        #partspecial1 .discription {
+            padding-top: 100px;
+        }
+        
+        #partspecial2 .discription {
+            padding-top: 15px;
+        }
+        
+        #fdiv1 {
+            margin-top: -45px;
+            height: 45vh;
+        }
+        
+        #fdiv1 .head1 {
+            padding-top: 150px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .center {
+            width: 50vw;
+            margin: 0% 25%;
+            text-align: center;
+        }
+        
+        #fdiv1 .info1 {
+            text-align: center;
+        }
+        
+        .submission {
+            padding: 35px 0px;
+            background: linear-gradient(rgba(206, 206, 136, 0.747), rgba(164, 106, 106, 0));
+            border-radius: 30px;
+        }
+        
+        .submission input {
+            height: 29px;
+            padding-top: 2px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid #dd7200;
+        }
+        
+        .submission input:focus {
             outline: none;
         }
