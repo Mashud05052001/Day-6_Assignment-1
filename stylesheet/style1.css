@@ -233,6 +233,20 @@
             padding-bottom: 5px;
         }
         
+        form button {
+            font-size: 20px;
+            border: 1px solid #ff7200;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+        }
+        
+        form button:hover {
+            color: black;
+        }
+        
         .submission input:focus {
             outline: none;
         }
